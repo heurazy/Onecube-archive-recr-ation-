@@ -1,0 +1,21 @@
+# --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
+# See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
+# Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
+# 
+# Modifying the Version will cause this file to break and regenerate.
+items-Version: 8
+items-Delay: 2
+items-Overwrite: false
+items-Spamming: false
+items-RestrictCount: false
+  map-item:
+    id: 345
+    slot: 4
+    name: '&echoisir un mini-jeux'
+    triggers: join, respawn, world-switch
+    permission-node: itemjoin.Compass
+    enabled-worlds: lobby
+    interact-right:
+    - 'player:cp panel-1 %player%'
+    enabled-worlds: lobby
+

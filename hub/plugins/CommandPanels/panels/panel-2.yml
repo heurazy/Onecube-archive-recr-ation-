@@ -1,0 +1,103 @@
+panels:
+  panel-2:
+    perm: default
+    rows: 3
+    title: '&8SELECTION DE LA MAP'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    item:
+      '0':
+        material: WOOL
+        stack: 1
+        name: "\xa7eJAPON"
+        commands:
+        - server= japon
+      '2':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '1':
+        material: WOOD_SWORD
+        stack: 1
+        name: "\xa7eORIENT"
+        commands:
+        - server= orient
+      '3':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '4':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '5':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '6':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '7':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '8':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '11':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '13':
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '15':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '9':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '19':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '20':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '17':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '18':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '21':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '22':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '23':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '24':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '26':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '25':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1

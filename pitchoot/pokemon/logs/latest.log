@@ -1,0 +1,395 @@
+[17:27:48] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[17:27:48] [Server thread/INFO]: Loading properties
+[17:27:48] [Server thread/INFO]: Default game type: SURVIVAL
+[17:27:48] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[17:27:48] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[17:27:48] [Server thread/INFO]: Debug logging is disabled
+[17:27:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[17:27:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:27:48] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[17:27:48] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2841)
+
+[17:27:48] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[17:27:48] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[17:27:48] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[17:27:48] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[17:27:48] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[17:27:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[17:27:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[17:27:48] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+[17:27:48] [Server thread/INFO]: Data value allowed items: 
+[17:27:48] [Server thread/INFO]: Generating keypair
+[17:27:48] [Server thread/INFO]: Starting Minecraft server on *:25524
+[17:27:48] [Server thread/INFO]: Using default channel type
+[17:27:48] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[17:27:48] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[17:27:48] [Server thread/INFO]: [Snowball] Loading Snowball v1.0
+[17:27:48] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.102
+[17:27:48] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[17:27:48] [Server thread/INFO]: [Spawntp] Loading Spawntp v4.0.4
+[17:27:48] [Server thread/INFO]: [AntiRod] Loading AntiRod v1.0
+[17:27:48] [Server thread/INFO]: [NBTAPI] Loading NBTAPI v2.12.0
+[17:27:49] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_8_R3! Trying to find NMS support
+[17:27:49] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_8_R3' loaded!
+[17:27:49] [Server thread/INFO]: [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
+[17:27:49] [Server thread/INFO]: [cannapeche] Loading cannapeche v1.0
+[17:27:49] [Server thread/INFO]: [NoFall] Loading NoFall v1
+[17:27:49] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.4
+[17:27:49] [Server thread/INFO]: [AlonsoPvP] Loading AlonsoPvP v0.8-BETA
+[17:27:49] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.102
+[17:27:49] [Server thread/INFO]: [0;36;1m       [0;36;22m __    [m
+
+[17:27:49] [Server thread/INFO]: [0;36;1m  |    [0;36;22m|__)   [0;32;22mLuckPerms[m [0;36;1mv5.4.102[m
+
+[17:27:49] [Server thread/INFO]: [0;36;1m  |___ [0;36;22m|      [0;30;1mRunning on Bukkit - CraftBukkit[m
+
+[17:27:49] [Server thread/INFO]: [m
+
+[17:27:49] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[17:27:49] [Thread-5/WARN]: [NBTAPI] The NBT-API in 'NBTAPI' seems to be outdated!
+[17:27:49] [Thread-5/WARN]: [NBTAPI] Current Version: '2.12.0' Newest Version: 2.14.1'
+[17:27:49] [Thread-5/WARN]: [NBTAPI] Please update the NBTAPI or the plugin that contains the api(nag the mod author when the newest release has an old version, not the NBTAPI dev)!
+[17:27:49] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[17:27:49] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[17:27:49] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[17:27:50] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1071ms)
+[17:27:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:27:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:27:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:27:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:27:50] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[17:27:50] [Server thread/INFO]: Preparing level "world"
+[17:27:50] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:27:50] [Server thread/INFO]: Random Lighting Updates: false
+[17:27:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:27:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:27:50] [Server thread/INFO]: Mob Spawn Range: 4
+[17:27:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Structure Info Saving: true
+[17:27:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:27:50] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:27:50] [Server thread/INFO]: Max TNT Explosions: 100
+[17:27:50] [Server thread/INFO]: Max Entity Collisions: 8
+[17:27:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:27:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:27:50] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:27:50] [Server thread/INFO]: Clear tick list: false
+[17:27:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:27:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:27:50] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:27:50] [Server thread/INFO]: View Distance: 10
+[17:27:50] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:27:50] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:27:50] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:27:50] [Server thread/INFO]: Anti X-Ray: true
+[17:27:50] [Server thread/INFO]: 	Engine Mode: 1
+[17:27:50] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:27:50] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:27:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:27:50] [Server thread/INFO]: -------- World Settings For [world] --------
+[17:27:50] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[17:27:50] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[17:27:50] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[17:27:50] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[17:27:50] [Server thread/INFO]: Keep spawn chunk loaded: true
+[17:27:50] [Server thread/INFO]: World async lighting: false
+[17:27:50] [Server thread/INFO]: Water over lava flow speed: 5
+[17:27:50] [Server thread/INFO]: Fix TNT cannons: false
+[17:27:50] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[17:27:50] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[17:27:50] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[17:27:50] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[17:27:50] [Server thread/WARN]: Unable to find spawn biome
+[17:27:50] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:27:50] [Server thread/INFO]: Random Lighting Updates: false
+[17:27:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:27:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:27:50] [Server thread/INFO]: Mob Spawn Range: 4
+[17:27:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Structure Info Saving: true
+[17:27:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:27:50] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:27:50] [Server thread/INFO]: Max TNT Explosions: 100
+[17:27:50] [Server thread/INFO]: Max Entity Collisions: 8
+[17:27:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:27:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:27:50] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:27:50] [Server thread/INFO]: Clear tick list: false
+[17:27:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:27:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:27:50] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:27:50] [Server thread/INFO]: View Distance: 10
+[17:27:50] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:27:50] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:27:50] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:27:50] [Server thread/INFO]: Anti X-Ray: true
+[17:27:50] [Server thread/INFO]: 	Engine Mode: 1
+[17:27:50] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:27:50] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:27:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:27:50] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[17:27:50] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[17:27:50] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[17:27:50] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[17:27:50] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[17:27:50] [Server thread/INFO]: Keep spawn chunk loaded: true
+[17:27:50] [Server thread/INFO]: World async lighting: false
+[17:27:50] [Server thread/INFO]: Water over lava flow speed: 5
+[17:27:50] [Server thread/INFO]: Fix TNT cannons: false
+[17:27:50] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[17:27:50] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[17:27:50] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[17:27:50] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[17:27:50] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:27:50] [Server thread/INFO]: Random Lighting Updates: false
+[17:27:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[17:27:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[17:27:50] [Server thread/INFO]: Mob Spawn Range: 4
+[17:27:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Cane Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Melon Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[17:27:50] [Server thread/INFO]: Structure Info Saving: true
+[17:27:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[17:27:50] [Server thread/INFO]: Sending up to 10 chunks per packet
+[17:27:50] [Server thread/INFO]: Max TNT Explosions: 100
+[17:27:50] [Server thread/INFO]: Max Entity Collisions: 8
+[17:27:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[17:27:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[17:27:50] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[17:27:50] [Server thread/INFO]: Clear tick list: false
+[17:27:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[17:27:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[17:27:50] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[17:27:50] [Server thread/INFO]: View Distance: 10
+[17:27:50] [Server thread/INFO]: Item Despawn Rate: 6000
+[17:27:50] [Server thread/INFO]: Item Merge Radius: 2.5
+[17:27:50] [Server thread/INFO]: Experience Merge Radius: 3.0
+[17:27:50] [Server thread/INFO]: Anti X-Ray: true
+[17:27:50] [Server thread/INFO]: 	Engine Mode: 1
+[17:27:50] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[17:27:50] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[17:27:50] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[17:27:50] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[17:27:50] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[17:27:50] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[17:27:50] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[17:27:50] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[17:27:50] [Server thread/INFO]: Keep spawn chunk loaded: true
+[17:27:50] [Server thread/INFO]: World async lighting: false
+[17:27:50] [Server thread/INFO]: Water over lava flow speed: 5
+[17:27:50] [Server thread/INFO]: Fix TNT cannons: false
+[17:27:50] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[17:27:50] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[17:27:50] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[17:27:50] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[17:27:50] [Server thread/INFO]: Preparing start region for level 0 (Seed: 0)
+[17:27:50] [Server thread/INFO]: Preparing start region for level 1 (Seed: 7849515897720712447)
+[17:27:51] [Server thread/INFO]: Preparing start region for level 2 (Seed: 7849515897720712447)
+[17:27:51] [Server thread/INFO]: [Snowball] Enabling Snowball v1.0
+[17:27:51] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[17:27:51] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[17:27:51] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[17:27:51] [Server thread/INFO]: [Spawntp] Enabling Spawntp v4.0.4
+[17:27:51] [Server thread/ERROR]: Error occurred while enabling Spawntp v4.0.4 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/google/inject/AbstractModule
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1026) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:524) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:427) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.getClassByName(JavaPluginLoader.java:193) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:98) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:595) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	at me.luukth.spawntp.Main.onEnable(Main.java:47) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:332) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:407) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugin(CraftServer.java:359) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.enablePlugins(CraftServer.java:318) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.s(MinecraftServer.java:408) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:372) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.google.inject.AbstractModule
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:445) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:595) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[?:?]
+	... 26 more
+[17:27:51] [Server thread/INFO]: [Spawntp] Disabling Spawntp v4.0.4
+[17:27:51] [Server thread/INFO]: [AntiRod] Enabling AntiRod v1.0
+[17:27:51] [Server thread/INFO]: [0;36;22mAnti Fishing Rod is aangezet[m
+
+[17:27:51] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.12.0
+[17:27:51] [Server thread/INFO]: [NBTAPI] Adding listeners...
+[17:27:51] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[17:27:51] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[17:27:51] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
+[17:27:51] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[17:27:52] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[17:27:52] [Server thread/INFO]: [cannapeche] Enabling cannapeche v1.0
+[17:27:52] [Server thread/INFO]: [NoFall] Enabling NoFall v1
+[17:27:52] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.4
+[17:27:52] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[17:27:52] [Server thread/INFO]: [AlonsoPvP] Enabling AlonsoPvP v0.8-BETA
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mHex colors are not available![m
+
+[17:27:52] [Server thread/INFO]: [0;36;1m    _   _                  ___      ___ [m
+
+[17:27:52] [Server thread/INFO]: [0;36;1m   /_\ | |___ _ _  ___ ___| _ \__ _| _ \[m
+
+[17:27:52] [Server thread/INFO]: [0;36;1m  / _ \| / _ \ ' \(_-</ _ \  _/\ V /  _/[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m /_/ \_\_\___/_||_/__/\___/_|   \_/|_|  [m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[m
+
+[17:27:52] [Server thread/INFO]: [0;36;1m   Running plugin [0;34;1mAlonsoPvP v0.8-BETA[m
+
+[17:27:52] [Server thread/INFO]: [0;36;1m   Server running [0;34;1mCraftBukkit[0;36;1m version [0;34;1mgit-PaperSpigot-445 (MC: 1.8.8)[m
+
+[17:27:52] [Server thread/INFO]: [0;36;1m   (Implementing API version [0;34;1mgit-PaperSpigot-445 (MC: 1.8.8)[0;36;1m)[m
+
+[17:27:52] [Server thread/INFO]: [0;36;1m   (Developed by [0;34;1m AlonsoAliaga[0;36;1m - Thanks for using my plugin [0;34;1m❤[0;36;1m)[m
+
+[17:27:52] [Server thread/INFO]: [0;36;1m   (If you loved the plugin consider leaving a review and mentioning your server IP in it![m
+
+[17:27:52] [Server thread/INFO]: [m
+
+[17:27:52] [Server thread/INFO]: [m
+
+[17:27:52] [Server thread/INFO]: [0;31;1m===================================================================================[m
+
+[17:27:52] [Server thread/INFO]: [0;31;1m[AlonsoPvP] You are using a Spigot fork (PAPER). Plugin might have errors[m
+
+[17:27:52] [Server thread/INFO]: [0;31;1m[AlonsoPvP] and not work properly. Consider using SPIGOT![m
+
+[17:27:52] [Server thread/INFO]: [0;31;1m===================================================================================[m
+
+[17:27:52] [Server thread/INFO]: [m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mBungeeCord action bar available. Hooking..[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mProtocolLib not found! Skipping..[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mBungeeCord action bar not available in 1.8.x! Skipping..[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[Auto-update] [0;37;22mConfiguration config.yml is up-to-date![m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22m[SQLite] Attempting to create 'alonsopvp' table..[m
+
+[17:27:52] [Server thread/INFO]: [SQLite] Connecting to database 'database-alonsopvp.db'![m
+
+[17:27:52] [Server thread/INFO]: [SQLite] Driver available: SQLiteJDBC[m
+
+[17:27:52] [Server thread/INFO]: [SQLite] Successfully connected to database![m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22m[SQLite] Table 'alonsopvp' has been created if didn't exist.[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mAlonsoLeaderboards not found. skipping..[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mVaultMultipliers wasn't found or hook is disabled! Skipping..[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mAlonsoLevels hook is enabled but plugin couldn't be found! Skipping..[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mSoup mode is enabled![m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mScoreboard enabled! Activating..[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mScoreboard task enabled! Running..[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mVault not found or not enabled in config. Using own economy system..[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mLoading 'beast' kit...[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mNo potions loaded for 'beast' kit.[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mKit 'beast' loaded successfully.[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mKit 'sniper' is not enabled in kits.yml[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mKit 'samurai' is not enabled in kits.yml[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mKit 'wizard' is not enabled in kits.yml[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mKit 'warrior' is not enabled in kits.yml[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mKit 'pro-kit' is not enabled in kits.yml[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mShop 'armor-shop' is enabled in configuration. Loading..[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mShop 'weapon-shop' is enabled in configuration. Loading..[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mShop 'misc-shop' is enabled in configuration. Loading..[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mSetting Spawn-location for world 'world'![m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mLoaded 1 arenas![m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mLeaderboard is enabled! Loading..[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mPlaceholderAPI found! Hooking..[m
+
+[17:27:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: alonsopvp [0.8-BETA]
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mRotation mode is enabled! Loading...[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mThere is only one available map. Rotation mode will be disabled.[m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mRotation mode is not enabled![m
+
+[17:27:52] [Server thread/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mMap has been randomly selected: pitchoot3 => pitchoot3[m
+
+[17:27:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:27:52] [Server thread/INFO]: Done (2,337s)! For help, type "help" or "?"
+[17:27:52] [Server thread/INFO]: Timings Reset
+[17:27:52] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[17:27:52] [Server thread/INFO]: [0;33;22m0 placeholder hook(s) registered![m
+
+[17:27:52] [Craft Scheduler Thread - 2/INFO]: [0;34;1m[AlonsoPvP] [0;37;22mChecking for updates...[m
+
+[17:27:52] [Craft Scheduler Thread - 2/INFO]: [0;34;1m[AlonsoPvP] [0;37;22m[0;33;1mPlugin up-to-date! You have the latest version![m
+
+[17:27:52] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.6) is available at:
+[17:27:52] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[17:30:10] [Thread-10/INFO]: UUID of player Heurazy is 0e7ddcb5-4dc5-31b3-b1c8-6470c424a07f
+[17:30:10] [Server thread/INFO]: Heurazy[/127.0.0.1:62765] logged in with entity id 30 at ([world]18385.5, -1.0, 2000.5)
+[17:30:23] [Server thread/INFO]: Heurazy lost connection: Disconnected
+[17:30:23] [Server thread/INFO]: Heurazy left the game.

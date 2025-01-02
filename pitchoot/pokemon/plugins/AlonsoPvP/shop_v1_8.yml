@@ -1,0 +1,310 @@
+Shop:
+  armor-shop:
+    Enabled: true
+    Name: Armour Shop
+    Permission: none
+    Message-no-permission: '&cYou don''t have permission for this shop.'
+    Rows: 3
+    Slots:
+      Player: 21
+      Back: 22
+      Points: 23
+    Icon:
+      Slot: 11
+      Displayname: '&bOpen armour shop'
+      Lore:
+      - '&eClick to open'
+      Data:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §bOpen armour shop
+          ItemFlags: !!set
+            HIDE_PLACED_ON: null
+            HIDE_ENCHANTS: null
+            HIDE_UNBREAKABLE: null
+            HIDE_POTION_EFFECTS: null
+            HIDE_ATTRIBUTES: null
+            HIDE_DESTROYS: null
+    Items:
+      helmet-p2:
+        Slot: 0
+        Price: 25
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_HELMET
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 2
+      chestplate-p2:
+        Slot: 1
+        Price: 25
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_CHESTPLATE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 2
+      leggings-p2:
+        Slot: 2
+        Price: 25
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 2
+      boots-p2:
+        Slot: 3
+        Price: 25
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 2
+      helmet-p3:
+        Slot: 9
+        Price: 50
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_HELMET
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 3
+      chestplate-p3:
+        Slot: 10
+        Price: 50
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_CHESTPLATE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 3
+      leggings-p3:
+        Slot: 11
+        Price: 50
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_LEGGINGS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 3
+      boots-p3:
+        Slot: 12
+        Price: 50
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 3
+  weapon-shop:
+    Enabled: true
+    Name: Weapon Shop
+    Permission: none
+    Message-no-permission: '&cYou don''t have permission for this shop.'
+    Rows: 3
+    Slots:
+      Player: 21
+      Back: 22
+      Points: 23
+    Icon:
+      Slot: 13
+      Displayname: '&bOpen armour shop'
+      Lore:
+      - '&eClick to open'
+      Data:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §bOpen armour shop
+          ItemFlags: !!set
+            HIDE_PLACED_ON: null
+            HIDE_ENCHANTS: null
+            HIDE_UNBREAKABLE: null
+            HIDE_POTION_EFFECTS: null
+            HIDE_ATTRIBUTES: null
+            HIDE_DESTROYS: null
+    Items:
+      diamond-sword:
+        Slot: 0
+        Price: 5
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_SWORD
+      diamond-sword-s1:
+        Slot: 1
+        Price: 15
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              DAMAGE_ALL: 1
+      diamond-sword-s2:
+        Slot: 2
+        Price: 30
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              DAMAGE_ALL: 2
+      diamond-sword-s3:
+        Slot: 3
+        Price: 60
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              DAMAGE_ALL: 3
+      diamond-axe:
+        Slot: 9
+        Price: 5
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_AXE
+      diamond-axe-s1:
+        Slot: 10
+        Price: 15
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_AXE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              DAMAGE_ALL: 1
+      diamond-axe-s2:
+        Slot: 11
+        Price: 30
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_AXE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              DAMAGE_ALL: 2
+      diamond-axe-s3:
+        Slot: 12
+        Price: 60
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: DIAMOND_AXE
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              DAMAGE_ALL: 3
+      bow-p1:
+        Slot: 5
+        Price: 5
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: BOW
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              ARROW_DAMAGE: 1
+      bow-p2:
+        Slot: 6
+        Price: 15
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: BOW
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              ARROW_DAMAGE: 2
+      bow-p3:
+        Slot: 7
+        Price: 30
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: BOW
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              ARROW_DAMAGE: 3
+      arrows-3:
+        Slot: 8
+        Price: 1
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: ARROW
+          amount: 3
+  misc-shop:
+    Enabled: true
+    Name: Misc Shop
+    Permission: none
+    Message-no-permission: '&cYou don''t have permission for this shop.'
+    Rows: 3
+    Slots:
+      Player: 21
+      Back: 22
+      Points: 23
+    Icon:
+      Slot: 15
+      Displayname: '&bOpen armour shop'
+      Lore:
+      - '&eClick to open'
+      Data:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §bOpen armour shop
+          ItemFlags: !!set
+            HIDE_PLACED_ON: null
+            HIDE_ENCHANTS: null
+            HIDE_UNBREAKABLE: null
+            HIDE_POTION_EFFECTS: null
+            HIDE_ATTRIBUTES: null
+            HIDE_DESTROYS: null
+    Items:
+      golden-apple:
+        Slot: 0
+        Price: 50
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: GOLDEN_APPLE
+      notch:
+        Slot: 1
+        Price: 250
+        Data:
+          ==: org.bukkit.inventory.ItemStack
+          type: GOLDEN_APPLE
+          damage: 1

@@ -1,0 +1,40 @@
+Arenas:
+  pitchoot2:
+    Enabled: true
+    Elytra-mode: false
+    Name: pitchoot2
+    Spawn:
+      ==: org.bukkit.Location
+      world: world
+      x: 2000.9780468071247
+      y: 87.0
+      z: 2000.3861267058578
+      pitch: 4.079126
+      yaw: -270.9549
+    Locations:
+      feur:
+        Name: feur
+        Item:
+          ==: org.bukkit.inventory.ItemStack
+          type: PAPER
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §6feur
+            lore:
+            - §7Click to teleport to this spawn.
+            ItemFlags: !!set
+              HIDE_PLACED_ON: null
+              HIDE_ENCHANTS: null
+              HIDE_UNBREAKABLE: null
+              HIDE_POTION_EFFECTS: null
+              HIDE_ATTRIBUTES: null
+              HIDE_DESTROYS: null
+        Location:
+          ==: org.bukkit.Location
+          world: world
+          x: 2000.9780468071247
+          y: 87.0
+          z: 2000.3861267058578
+          pitch: 5.036375
+          yaw: -273.47903

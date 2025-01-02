@@ -1,0 +1,23 @@
+[18:39:20] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[18:39:20] [Server thread/INFO]: Loading properties
+[18:39:20] [Server thread/WARN]: server.properties does not exist
+[18:39:20] [Server thread/INFO]: Generating new properties file
+[18:39:20] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Descripteur non valide
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:291) ~[?:?]
+	at java.io.BufferedInputStream.implRead(BufferedInputStream.java:325) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:312) ~[?:?]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[cannapeche.jar:git-Spigot-21fe707-741a1bd]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[cannapeche.jar:git-Spigot-21fe707-741a1bd]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[cannapeche.jar:git-Spigot-21fe707-741a1bd]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[cannapeche.jar:git-Spigot-21fe707-741a1bd]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[cannapeche.jar:git-Spigot-21fe707-741a1bd]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[cannapeche.jar:git-Spigot-21fe707-741a1bd]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[cannapeche.jar:git-Spigot-21fe707-741a1bd]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[cannapeche.jar:git-Spigot-21fe707-741a1bd]
+	at net.minecraft.server.v1_8_R3.DedicatedServer$2.run(DedicatedServer.java:81) [cannapeche.jar:git-Spigot-21fe707-741a1bd]
+[18:39:20] [Server thread/WARN]: Failed to load eula.txt
+[18:39:20] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[18:39:20] [Server thread/INFO]: Stopping server

@@ -1,0 +1,441 @@
+#                   _   _                  ___      ___
+#                  /_\ | |___ _ _  ___ ___| _ \__ _| _ \
+#                 / _ \| / _ \ ' \(_-</ _ \  _/\ V /  _/
+#                /_/ \_\_\___/_||_/__/\___/_|   \_/|_|
+#                           by AlonsoAliaga
+#          https://www.spigotmc.org/resources/authors/281176/
+Messages:
+  No-permission: '&cYou don''t have permission to do this.'
+  Reloaded: '&aSome messages and options have been reloaded. Other may require a restart!'
+  Invalid-player: '&cPlayer is not online!'
+  Invalid-number: '&cNumber is not valid!'
+  Please-reconnect: '&cUnexpected error. Please reconnect to the server!'
+  Please-reconnect-other: '&cUnexpected error. The player must reconnect to the server!'
+  Target-not-loaded: '&cTarget cannot be loaded, try later. Contact an administrator
+    if problem persists!'
+  Inventory-full: '&cYour inventory is full. You cannot purchase items :('
+  Not-enough-money: '&cYou cannot afford this item :('
+  Transaction-error: '&cUnexpected error with payment. If problem persists, contact
+    an administrator!'
+  No-locations: '&cThere aren''t locations selected for this arena. Contact an administrator!'
+  Reset-data:
+    Only-console: '&cOnly console can reset player''s data.'
+    Success: '&aData successfully deleted!'
+    Invalid-target: '&cPlayer is not registered!'
+    Unexpected-error: '&cUnexpected error. Try again later!'
+    Cancelled: '&cReset data was cancelled by a plugin!'
+  Reset-kit:
+    Warning: '&cReturning to spawn will reset your current kit and actual inventory..'
+    Countdown: '&eTeleporting to spawn in &b{TIME}&e seconds. Don''t move..'
+    Cancelled: '&cYou moved, received damage or map changed. Teleportation cancelled!'
+    Teleported: '&aYou have been teleported to spawn!'
+    Disabled: '&cThis command is not enabled!'
+    No-arena: '&cCurrent arena is not available!'
+    Already-spawning: '&cYou are already being sent to spawn..'
+  Leaderboard:
+    Created: '&aYou created a {TYPE} leaderboard for rank {RANK}!'
+    Removed: '&cYou removed this {TYPE} leaderboard for rank {RANK}!'
+    Signs:
+      Kills:
+        Rank:
+        - '&c--&e #{RANKING} &c--'
+        - '&f{PLAYER}'
+        - '&b{SCORE} kills'
+        - '&c-------------'
+        None:
+        - '&c--&e #{RANKING} &c--'
+        - '&cNo player'
+        - '&bUnknown'
+        - '&c-------------'
+      Deaths:
+        Rank:
+        - '&c--&e #{RANKING} &c--'
+        - '&f{PLAYER}'
+        - '&b{SCORE} deaths'
+        - '&c-------------'
+        None:
+        - '&c--&e #{RANKING} &c--'
+        - '&cNo player'
+        - '&bUnknown'
+        - '&c-------------'
+      Killstreak:
+        Rank:
+        - '&c--&e #{RANKING} &c--'
+        - '&f{PLAYER}'
+        - '&b{SCORE} kills'
+        - '&c-------------'
+        None:
+        - '&c--&e #{RANKING} &c--'
+        - '&cNo player'
+        - '&bUnknown'
+        - '&c-------------'
+      Best-killstreak:
+        Rank:
+        - '&c--&e #{RANKING} &c--'
+        - '&f{PLAYER}'
+        - '&b{SCORE} kills'
+        - '&c-------------'
+        None:
+        - '&c--&e #{RANKING} &c--'
+        - '&cNo player'
+        - '&bUnknown'
+        - '&c-------------'
+  Help:
+    Admin:
+    - '&9 /alonsopvp spawn <player> &f- &bReturn a player to spawn'
+    - '&9 /alonsopvp resetdata <player> &f- &bReset player data'
+    - '&9 /alonsopvp setup-leaderheads &f- &bSetup LeaderHeads support (If available)'
+    - '&9 /alonsopvp kits &f- &bOpen kits menu'
+    - '&9 /alonsopvp shop &f- &bOpen shop menu'
+    - '&9 /alonsopvp stats &f- &bOpen stats GUI'
+    - '&9 /alonsopvp arena &f- &bModify/create/toggle arenas.'
+    - '&9 /alonsopvp kit &f- &bModifu/create/toggle kits'
+    - '&9 /alonsopvp shops &f- &bModifu/create/toggle shops'
+    - '&9 /alonsopvp buildmode &f- &bToggle build mode'
+    - '&9 /alonsopvp setkit <player> &f- &bSet player kit and location'
+    - '&9 /alonsopvp reload &f- &bReload configuration (Restart recommended)'
+    User:
+    - '&9 /alonsopvp spawn &f- &bReturn to spawn'
+    - '&9 /alonsopvp kits &f- &bOpen kits menu'
+    - '&9 /alonsopvp shop &f- &bOpen shop menu'
+    - '&9 /alonsopvp stats &f- &bOpen stats GUI'
+  Kit:
+    Already-selected: '&cYou already have a kit selected.'
+    Kit-selected: '&aYou selected {KIT} kit.'
+    No-locations: '&cThere aren''t locations available. If you think this is an error
+      contact an administrator!'
+    Not-available: '&cThis kit is not available!'
+    Arena-not-available: '&cThis arena is not available! Contact an administrator.'
+  Rotation:
+    Broadcast-left: '&c&lGame map will be changed in {TIME} seconds!'
+    Broadcast: '&a&lThe game map is changing..'
+    Game-continue: '&6&lThere aren''t available maps. Game will continue..'
+  Create:
+    Arena:
+      Arena-is-enabled: '&cThis arena exists and is enabled. To change main spawn,
+        disable it first and try again.'
+      Arena-updated: '&aArena has been updated. New spawn has been selected and name
+        has changed to {NAME}!'
+      Arena-created: '&aArena has been created. Spawn selected in your current location!'
+      Arena-delete-repeat: '&cRepeat the arena identifier again to confirm: /alonsopvp
+        arena delete {ARENA} {ARENA}'
+      Arena-deleted: '&cArena has been deleted!'
+      Unknown-arena: '&cArena doesn''t exist in configuration. Create it first!'
+      Item-required: '&cYou must be holding an item in your main hand to use as spawn
+        icon.'
+      Spawn-updated: '&aSpawn has been updated. New location has been selected, name
+        changed to {NAME} and new icon has been set.'
+      Spawn-created: '&aSpawn has been created. Spawn selected in your current location!'
+      Arena-enabled: '&aArena has been enabled!'
+      Arena-disabled: '&cArena has been disabled!'
+      Arena-invalid: '&cArena seems to be invalid. It might not have spawns selected.
+        Check configuration!'
+      Reloaded: '&aArenas have been reloaded!'
+    Kit:
+      Kit-is-enabled: '&cThis kit exists and is enabled. To change edit it, disable
+        it first and try again.'
+      Kit-updated: '&aKit has been updated. Kit has been updated and name has changed
+        to {NAME}!'
+      Kit-created: '&aKit has been created. Item in hand has been used as kit icon!'
+      Kit-delete-repeat: '&cRepeat the kit identifier again to confirm: /alonsopvp
+        kit delete {KIT} {KIT}'
+      Kit-deleted: '&cKit has been deleted!'
+      Invalid-slot: '&cThe slot can be between 0 and {MAX}. Make sure you don''t use
+        the same slot with other kits!'
+      Item-required: '&cYou must be holding an item in your main hand to use as kit
+        icon.'
+      Item-reward-required: '&cYou must be holder an item in your main hand to add
+        it as reward.'
+      Unknown-kit: '&cKit doesn''t exist in configuration. Create it first!'
+      Reward-added: '&aReward has been added to the kit.'
+      Kit-inventory-updated: '&aKit inventory has been updated. New content and armor
+        has been selected.'
+      Kit-enabled: '&aKit has been enabled!'
+      Kit-disabled: '&cKit has been disabled!'
+      Kit-invalid: '&cKit seems to be invalid. Check configuration and make sure it''s
+        all good!'
+      Reloaded: '&aKits have been reloaded!'
+    Shop:
+      Shop-updated: '&aShop has been updated. New shop icon has been selected and
+        name has changed to {NAME}!'
+      Shop-created: '&aShop has been created. Shop icon has been selected!'
+      Unknown-shop: '&cShop doesn''t exist in configuration. Create it first!'
+      Shop-delete-repeat: '&cRepeat the shop identifier again to confirm: /alonsopvp
+        shop delete {SHOP} {SHOP}'
+      Shop-deleted: '&cShop has been deleted!'
+      Item-required: '&cYou must be holding an item in your main hand to use as shop
+        icon.'
+      Item-item-required: '&cYou must be holding an item in your main hand to add
+        it to the shop.'
+      Item-created: '&aItem has been created.'
+      Item-updated: '&aItem with that identifier has been updated.'
+      Reloaded: '&aShop has been reloaded!'
+  Build-mode:
+    Check-disabled: '&cBuild check is not enabled. Build mode command is not enabled!'
+    Enabled: '&aBuild mode has been enabled! You can now break, place blocks and drop
+      items.'
+    Disabled: '&cBuild mode has been disabled! You can no longer break or place blocks.'
+  Join:
+    Not-active: '&cGame is not active. Contact an administrator!'
+    Joined-map: '&aYou joined {MAP}!'
+  Scoreboard:
+    Arena-none-row: '&7None'
+    Arena-none-title: NONE
+  Placeholders:
+    Arena-identifier-none: '&7None'
+    Arena-name-none: '&7None'
+    Kit-none: '&7None'
+    Kit-name: '{KIT}'
+    Multiplier: '&6(+{COINS} ⛃)'
+    Remaining-format: '&a{TIME}'
+    Remaining-permanent: '&bPermanent'
+    Remaining-rotating: '&cRotating..'
+    Leaderboards:
+      Disabled: '&7Leaderboards not available!'
+      Kills:
+        No-name: '&7Unknown'
+        No-score: '&7Unknown'
+        Rank: '&e{RANKING}. &b{PLAYER} &7- &e{SCORE}'
+        None: '&7No data available'
+      Deaths:
+        No-name: '&7Unknown'
+        No-score: '&7Unknown'
+        Rank: '&e{RANKING}. &b{PLAYER} &7- &e{SCORE}'
+        None: '&7No data available'
+      Killstreak:
+        No-name: '&7Unknown'
+        No-score: '&7Unknown'
+        Rank: '&e{RANKING}. &b{PLAYER} &7- &e{SCORE}'
+        None: '&7No data available'
+      Best-killstreak:
+        No-name: '&7Unknown'
+        No-score: '&7Unknown'
+        Rank: '&e{RANKING}. &b{PLAYER} &7- &e{SCORE}'
+        None: '&7No data available'
+  Kill:
+    Player: '%vault_prefix%{PLAYER}'
+    Killer: '%vault_prefix%{PLAYER}'
+    Kill-unknown-broadcast:
+    - '&6{PLAYER}&e died under unknown circumstances.'
+    - '&6{PLAYER}&e was killed.'
+    - '&6{PLAYER}&e has died.'
+    Killstreak-announce:
+    - '&6{PLAYER}&e has a killstreak of &6{KILLSTREAK}!'
+    - '&6{PLAYER}&e is a serial killer with &6{KILLSTREAK}&e kills!'
+    - '&6{PLAYER}&e has a killed &6{KILLSTREAK}&e players in a row!'
+    - '&6{PLAYER}&e is unstoppably with a killstreak of &6{KILLSTREAK}&e players in
+      a row!'
+    - '&6{PLAYER}&e has already left &6{KILLSTREAK}&e corpses in his wake!'
+    Kill-broadcast:
+    - '&6{PLAYER}&e was killed by &6{KILLER}&e.'
+    - '&6{PLAYER}&e was murdered by &6{KILLER}&e.'
+    - '&6{PLAYER}&e thought he could escape from &6{KILLER}&e. '
+    - '&6{PLAYER}&e''s existence has just been eliminated by &6{KILLER}&e.'
+    - '&6{PLAYER}&e''s just got rekt by &6{KILLER}&e.'
+    - '&6{KILLER}&e just kicked &6{PLAYER}&e''s ass.'
+    - '&6{KILLER}&e was the last thing &6{PLAYER}&e saw.'
+    Kill-action-bar:
+    - '&e⚔ You killed &6{PLAYER}&e +{COINS}&6{MULTIPLIER}&e coins ⚔'
+    - '&e✚ You killed &6{PLAYER}&e +{COINS}&6{MULTIPLIER}&e coins ✚'
+  Shop:
+    Elytras-locked: '&cYou cannot buy elytra in this map!'
+Permissions:
+  Admin: alonsopvp.admin
+  Stats-others: none
+  Build-mode: alonsopvp.buildmode
+  Reset-kit: alonsopvp.resetkit
+Options:
+  Leaderboards:
+    Enabled: true
+    First-delay: 3
+    Interval: 10
+    AlonsoLeaderboards: true
+    Default-skin: AlonsoAliaga
+    Play-flames: true
+  Kits:
+    Rows: 3
+    Title: '&8Select a kit'
+  Spawn:
+    Title: '&8Spawn selector'
+  Stats:
+    Rows: 3
+    Title: '&8Stats: {PLAYER}'
+  Shop:
+    Rows: 3
+    Title: '&8Shop'
+    Item-flags:
+    - HIDE_ATTRIBUTES
+    - HIDE_UNBREAKABLE
+    - HIDE_DESTROYS
+    - HIDE_PLACED_ON
+    Lock-elytra: true
+  Vault: true
+  Game:
+    Special:
+      Soup:
+        Enabled: true
+        Health: 7
+      Recycler:
+        Soup: true
+        Potion: true
+        Milk: true
+    Change-gamemode: true
+    Reset-kit:
+      Enabled: true
+      Time: 10
+    Rotate-map:
+      Enabled: true
+      Interval: 1800
+    Data:
+      Keep-kill-streak: true
+      Keep-selected-kit: false
+      Keep-items: false
+      Keep-items-on-rotate: false
+    Checks:
+      Fall-damage: false
+      Build: true
+      Drops: true
+      Death-drops: true
+      Hunger: true
+      Status: true
+    Clear-inventory-on-join: false
+    Clear-inventory-on-leave: false
+  Hooks:
+    VaultMultipliers: true
+    AlonsoLevels: true
+  Combat-log:
+    Enabled: true
+    Interval: 15
+  Debug: true
+Rewards:
+  Kill:
+    Coins: 1
+    Commands:
+    - alonsolevels addrandomexp {KILLER} 5 10 true
+    - alonsoleagues addrandompoints {KILLER} 1 2 true
+  Death:
+    Coins: 1
+    Commands: []
+Scoreboard:
+  Enabled: true
+  Update:
+    Enabled: true
+    Interval: 1
+  Game:
+    Title: '&e&lFFA'
+    Lines:
+    - '&5Kills: &a{KILLS}'
+    - '&5Deaths: &a{DEATHS}'
+    - '&5Best killstreak: &a{BEST_KILLSTREAK}'
+    - '&5Current killstreak: &a{KILLSTREAK}'
+    - '&5Kill/death: &a{KDR_FORMAT}'
+    - '&5Map changes in: &a{REMAINING_TIME}'
+    - ''
+    - '&6play.yournetwork.net'
+Items:
+  Kit-selection:
+    Material: PAPER
+    Slot: 4
+    Displayname: '&aKit selection'
+  Player:
+    Slot: 21
+    Displayname: '&e&l{PLAYER}'
+    Lore:
+    - '&fPoints: &a{COINS}'
+    - '&fLevel: &a%alonsolevels_level%'
+    - '&fExperience: &a%alonsolevels_progress_format% (%alonsolevels_progress_percent_format%)'
+    - '&fProgress: &7%alonsolevels_progress_bar%'
+    - '&eClick for more information.'
+    Command: none
+  Close:
+    Material: BOOK
+    Slot: 22
+    Displayname: '&9Close menu'
+    Lore:
+    - '&7Close the shop'
+    Command: none
+  Points:
+    Material: DOUBLE_PLANT
+    Slot: 23
+    Displayname: '&a&lPoints'
+    Lore:
+    - '&7You have: &a{COINS}'
+    - '&7Coins can be obtained by playing games or'
+    - '&7killing other players and can be used to'
+    - '&7purchase items in the shop.'
+    Command: none
+  Back:
+    Material: BOOK
+    Displayname: '&9Back'
+    Lore:
+    - '&eClick to return.'
+  Shop-item:
+    Lore:
+    - '&6Price: &e{PRICE}'
+    - '&6Quantity: &e{AMOUNT}'
+    - ''
+    - '&aClick to purchase'
+    Cost: '&e{COST} coins'
+    Free: '&aFree'
+  Spawn:
+    Displayname: '&6{SPAWN}'
+    Lore:
+    - '&7Click to teleport to this spawn.'
+Stats:
+  Kills:
+    Slot: 10
+    Material: DIAMOND_SWORD
+    Displayname: '&e&lKills: &a%alonsopvp_kills%'
+    Lore: []
+    Command: none
+  Deaths:
+    Slot: 11
+    Material: CUSTOM_HEAD
+    Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjYxNzg1NWZmMTI2OGQ5NTliZDlmMjM5Mzg0ZmUwNDMxZWJkNzUxYjI2MjQ2MTljNTU1ZTlkNDcxZTk0NDAifX19
+    Displayname: '&e&lDeaths: &a%alonsopvp_deaths%'
+    Lore: []
+    Command: none
+  Coins:
+    Slot: 12
+    Material: CUSTOM_HEAD
+    Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWNkNzBjZTQ4MTg1ODFjYTQ3YWRmNmI4MTY3OWZkMTY0NmZkNjg3YzcxMjdmZGFhZTk0ZmVkNjQwMTU1ZSJ9fX0=
+    Displayname: '&e&lCoins: &a%alonsopvp_coins%'
+    Lore: []
+    Command: none
+  Killstreak:
+    Slot: 14
+    Material: CUSTOM_HEAD
+    Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTdlYTFiYTNhMjZjYmM0YzgxODI4MWMyMmE5OTliOGYxYTcxZDEzMzgzMzAzMDU2OTc1MDExYjZkMTIxMmI0NCJ9fX0=
+    Displayname: '&e&lKillstreak: &a%alonsopvp_killstreak%'
+    Lore: []
+  Best-killstreak:
+    Slot: 15
+    Material: CUSTOM_HEAD
+    Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk1NjAyNGJmZTM1ZmZiZmQ0YjAzMDU5MmFlNDk3YTAxNGQ2ZGFlZmU5MjI4YmRmMzE3MGVjZDc4ZWQ3YzcxMiJ9fX0=
+    Displayname: '&e&lBest killstreak: &a%alonsopvp_best_killstreak%'
+    Lore: []
+    Command: none
+  KDR:
+    Slot: 16
+    Material: CUSTOM_HEAD
+    Texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDU1ODdkYTdmZTczMzZlOGFiOWY3OTFlYTVlMmNmYzhhODI3Y2E5NTk1NjdlYjlkNTNhNjQ3YmFiZjk0OGQ1In19fQ==
+    Displayname: '&e&lKDR: &a%alonsopvp_kdr_format%'
+    Lore: []
+    Command: none
+Database:
+  Type: SQLite
+  Table: alonsopvp
+  File: database-alonsopvp
+  Host: 127.0.0.1
+  Port: 3306
+  Database: alonsopvp
+  Username: root
+  Password: '12345'
+  Keep-alive-interval: 30
+Updates:
+  Auto-update-configuration: true
+  Check-updates: true
+  Notify-updates: true
+  Permission: alonsopvp.update
+  Message: '&9[AlonsoPvP] &eA new update has been found! You are using version {CURRENT}.
+    Download version {NEW} here &c{LINK}'

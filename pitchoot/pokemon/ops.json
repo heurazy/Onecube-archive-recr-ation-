@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "0e7ddcb5-4dc5-31b3-b1c8-6470c424a07f",
+    "name": "Heurazy",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a0c2a332-b8dd-39dd-976d-16bd22c53cb6",
+    "name": "-stop",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "43c82ca9-d4a9-3497-88f4-dc7a1d68a5f7",
+    "name": "Nsavant",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "3ba4db0b-cd0a-30a6-84b0-7dfc8ceca500",
+    "name": "XGY8SE",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

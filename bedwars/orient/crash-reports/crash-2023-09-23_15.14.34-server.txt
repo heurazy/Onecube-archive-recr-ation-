@@ -1,0 +1,54 @@
+---- Minecraft Crash Report ----
+// Don't do that.
+
+Time: 23/09/2023 15:14
+Description: Exception in server tick loop
+
+java.lang.NullPointerException: Cannot invoke "net.minecraft.server.v1_8_R3.NBTBase.load(java.io.DataInput, int, net.minecraft.server.v1_8_R3.NBTReadLimiter)" because "<local5>" is null
+	at net.minecraft.server.v1_8_R3.NBTTagCompound.a(SourceFile:406)
+	at net.minecraft.server.v1_8_R3.NBTTagCompound.load(SourceFile:70)
+	at net.minecraft.server.v1_8_R3.NBTTagCompound.a(SourceFile:406)
+	at net.minecraft.server.v1_8_R3.NBTTagCompound.load(SourceFile:70)
+	at net.minecraft.server.v1_8_R3.NBTTagCompound.a(SourceFile:406)
+	at net.minecraft.server.v1_8_R3.NBTTagCompound.load(SourceFile:70)
+	at net.minecraft.server.v1_8_R3.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:84)
+	at net.minecraft.server.v1_8_R3.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:53)
+	at net.minecraft.server.v1_8_R3.NBTCompressedStreamTools.a(NBTCompressedStreamTools.java:43)
+	at net.minecraft.server.v1_8_R3.ChunkRegionLoader.loadChunk(ChunkRegionLoader.java:71)
+	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage1(ChunkIOProvider.java:25)
+	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage1(ChunkIOProvider.java:1)
+	at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:336)
+	at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:295)
+	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:16)
+	at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:135)
+	at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:117)
+	at net.minecraft.server.v1_8_R3.MinecraftServer.k(MinecraftServer.java:363)
+	at net.minecraft.server.v1_8_R3.MinecraftServer.a(MinecraftServer.java:327)
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:267)
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 4230882864 bytes (4034 MB) / 4294967296 bytes (4096 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 2 total; -Xmx4096M -Xms4096M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	CraftBukkit Information: 
+   Running: CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT) true
+   Plugins: { BedWars v0.2.29 org.screamingsandals.bedwars.Main [ScreamingSandals <Misat11, Iamceph, Pronze>],}
+   Warnings: DEFAULT
+   Reload Count: 0
+   Threads: { WAITING Snooper Timer: [java.base@21/java.lang.Object.wait0(Native Method), java.base@21/java.lang.Object.wait(Object.java:366), java.base@21/java.lang.Object.wait(Object.java:339), java.base@21/java.util.TimerThread.mainLoop(Timer.java:537), java.base@21/java.util.TimerThread.run(Timer.java:516)], WAITING Finalizer: [java.base@21/java.lang.Object.wait0(Native Method), java.base@21/java.lang.Object.wait(Object.java:366), java.base@21/java.lang.Object.wait(Object.java:339), java.base@21/java.lang.ref.NativeReferenceQueue.await(NativeReferenceQueue.java:48), java.base@21/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:158), java.base@21/java.lang.ref.NativeReferenceQueue.remove(NativeReferenceQueue.java:89), java.base@21/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:173)], TIMED_WAITING Common-Cleaner: [java.base@21/jdk.internal.misc.Unsafe.park(Native Method), java.base@21/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269), java.base@21/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847), java.base@21/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71), java.base@21/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143), java.base@21/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218), java.base@21/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140), java.base@21/java.lang.Thread.runWith(Thread.java:1596), java.base@21/java.lang.Thread.run(Thread.java:1583), java.base@21/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:186)], RUNNABLE Server console handler: [app//org.fusesource.jansi.internal.Kernel32.ReadConsoleInputW(Native Method), app//org.fusesource.jansi.internal.Kernel32.readConsoleInputHelper(Kernel32.java:761), app//org.fusesource.jansi.internal.Kernel32.readConsoleKeyInput(Kernel32.java:794), app//org.fusesource.jansi.internal.WindowsSupport.readConsoleInput(WindowsSupport.java:97), app//org.bukkit.craftbukkit.libs.jline.WindowsTerminal.readConsoleInput(WindowsTerminal.java:215), app//org.bukkit.craftbukkit.libs.jline.WindowsTerminal.access$000(WindowsTerminal.java:55), app//org.bukkit.craftbukkit.libs.jline.WindowsTerminal$1.read(WindowsTerminal.java:157), app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169), app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137), app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246), app//org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261), app//org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198), app//org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145), app//org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2349), app//net.minecraft.server.v1_8_R3.DedicatedServer$2.run(DedicatedServer.java:79)], RUNNABLE DestroyJavaVM: [], WAITING Thread-3: [java.base@21/jdk.internal.misc.Unsafe.park(Native Method), java.base@21/java.util.concurrent.locks.LockSupport.park(LockSupport.java:371), java.base@21/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:519), java.base@21/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780), java.base@21/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725), java.base@21/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1707), java.base@21/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435), app//com.mojang.util.QueueLogAppender.getNextLogEvent(QueueLogAppender.java:77), app//org.bukkit.craftbukkit.v1_8_R3.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:25), java.base@21/java.lang.Thread.runWith(Thread.java:1596), java.base@21/java.lang.Thread.run(Thread.java:1583)], RUNNABLE Reference Handler: [java.base@21/java.lang.ref.Reference.waitForReferencePendingList(Native Method), java.base@21/java.lang.ref.Reference.processPendingReferences(Reference.java:246), java.base@21/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:208)], TIMED_WAITING Server Infinisleeper: [java.base@21/java.lang.Thread.sleep0(Native Method), java.base@21/java.lang.Thread.sleep(Thread.java:509), app//net.minecraft.server.v1_8_R3.DedicatedServer$1.run(DedicatedServer.java:54)], RUNNABLE Server thread: [java.base@21/java.lang.Thread.dumpThreads(Native Method), java.base@21/java.lang.Thread.getAllStackTraces(Thread.java:2521), app//org.bukkit.craftbukkit.v1_8_R3.CraftCrashReport.call(CraftCrashReport.java:29), app//net.minecraft.server.v1_8_R3.CrashReportSystemDetails.a(SourceFile:78), app//net.minecraft.server.v1_8_R3.CrashReport.h(CrashReport.java:127), app//net.minecraft.server.v1_8_R3.CrashReport.<init>(CrashReport.java:34), app//net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:636), java.base@21/java.lang.Thread.runWith(Thread.java:1596), java.base@21/java.lang.Thread.run(Thread.java:1583)], TIMED_WAITING PaperSpigot Watchdog Thread: [java.base@21/java.lang.Thread.sleep0(Native Method), java.base@21/java.lang.Thread.sleep(Thread.java:509), app//org.spigotmc.WatchdogThread.run(WatchdogThread.java:92)], RUNNABLE Netty Server IO #0: [java.base@21/sun.nio.ch.WEPoll.wait(Native Method), java.base@21/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:114), java.base@21/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:130), java.base@21/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:142), app//io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622), app//io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310), app//io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116), java.base@21/java.lang.Thread.runWith(Thread.java:1596), java.base@21/java.lang.Thread.run(Thread.java:1583)], RUNNABLE Signal Dispatcher: [], WAITING NonBlockingInputStreamThread: [java.base@21/java.lang.Object.wait0(Native Method), java.base@21/java.lang.Object.wait(Object.java:366), app//org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.run(NonBlockingInputStream.java:278), java.base@21/java.lang.Thread.runWith(Thread.java:1596), java.base@21/java.lang.Thread.run(Thread.java:1583)], RUNNABLE Attach Listener: [], RUNNABLE Notification Thread: [], TIMED_WAITING Spigot Metrics Thread: [java.base@21/java.lang.Object.wait0(Native Method), java.base@21/java.lang.Object.wait(Object.java:366), java.base@21/java.util.TimerThread.mainLoop(Timer.java:563), java.base@21/java.util.TimerThread.run(Timer.java:516)],}
+   Recent tasks from -31--1{}
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 20; []
+	Is Modded: Definitely; Server brand changed to 'PaperSpigot'
+	Type: Dedicated Server (map_server.txt)

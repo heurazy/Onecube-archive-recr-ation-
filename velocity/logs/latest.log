@@ -1,0 +1,485 @@
+[17:43:55] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.2.0-SNAPSHOT (git-19abb909-b265)...
+[17:43:55] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[17:43:55] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
+[17:43:55] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[17:43:55] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: Player info forwarding is disabled! All players will appear to be connecting from the proxy and will have offline-mode UUIDs.
+[17:43:55] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[17:43:56] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin serverlistplus 3.5.0 by Minecrell (https://github.com/Minecrell)
+[17:43:56] [main/INFO] [slashhub]: ----------------------------
+[17:43:56] [main/INFO] [slashhub]: 
+[17:43:56] [main/INFO] [slashhub]:   * SlashHub Velocity by SkyGameZ *
+[17:43:56] [main/INFO] [slashhub]:     * Version 1.5 *
+[17:43:56] [main/INFO] [slashhub]:    * Update available! *
+[17:43:56] [main/INFO] [slashhub]: 
+[17:43:56] [main/INFO] [slashhub]: ----------------------------
+[17:43:56] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin slashhub 1.5 by skygamez
+[17:43:56] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 2 plugins
+[17:43:56] [Velocity Async Event Executor - #0/INFO] [serverlistplus]: [Core] Reloading configuration...
+[17:43:56] [Velocity Async Event Executor - #0/INFO] [serverlistplus]: [Core] Loaded configuration: ServerStatusConf
+[17:43:56] [Velocity Async Event Executor - #0/INFO] [serverlistplus]: [Core] Loaded configuration: PluginConf
+[17:43:56] [Velocity Async Event Executor - #0/INFO] [serverlistplus]: [Core] Reloading saved player identities...
+[17:43:56] [Velocity Async Event Executor - #0/INFO] [serverlistplus]: Successfully loaded!
+[17:43:56] [Netty NIO Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[17:43:56] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (1,37s)!
+[17:44:08] [Netty NIO Worker #11/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/127.0.0.1:63687) has connected
+[17:44:08] [Netty NIO Worker #11/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[17:55:31] [Netty NIO Worker #11/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@74aaca3d
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[17:55:31] [Netty NIO Worker #11/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/127.0.0.1:63687) has disconnected: Your connection to lobby encountered a problem.
+[17:55:31] [Netty NIO Worker #11/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[17:55:41] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/127.0.0.1:64000) has connected
+[17:55:41] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[17:56:29] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Heurazy (/127.0.0.1:64000) has disconnected
+[17:56:29] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[17:56:32] [Netty NIO Worker #21/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:64077) has connected
+[17:56:32] [Netty NIO Worker #21/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[17:56:49] [Netty NIO Worker #21/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@2232debf
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[17:56:49] [Netty NIO Worker #21/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:64077) has disconnected: Your connection to lobby encountered a problem.
+[17:56:49] [Netty NIO Worker #21/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[17:57:01] [Netty NIO Worker #23/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:64104) has connected
+[17:57:01] [Netty NIO Worker #23/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[17:57:51] [Netty NIO Worker #23/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@4a839d08
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[17:57:51] [Netty NIO Worker #23/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:64104) has disconnected: Your connection to lobby encountered a problem.
+[17:57:51] [Netty NIO Worker #23/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[17:58:02] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:64143) has connected
+[17:58:02] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[18:00:08] [Netty NIO Worker #3/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@6eea123a
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:00:08] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:64143) has disconnected: Your connection to lobby encountered a problem.
+[18:00:08] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[18:00:19] [Netty NIO Worker #12/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:64216) has connected
+[18:00:19] [Netty NIO Worker #12/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[18:02:34] [Netty NIO Worker #12/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@7c42df5
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:02:34] [Netty NIO Worker #12/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:64216) has disconnected: Your connection to lobby encountered a problem.
+[18:02:34] [Netty NIO Worker #12/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[18:02:44] [Netty NIO Worker #22/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:64296) has connected
+[18:02:44] [Netty NIO Worker #22/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[18:05:00] [Netty NIO Worker #22/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Heurazy (/86.252.4.178:64296) has disconnected
+[18:05:00] [Netty NIO Worker #22/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[18:05:08] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:64460) has connected
+[18:05:08] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[18:10:45] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> japon has connected
+[18:10:45] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[18:11:07] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] SkyNenncompsegon (/86.252.4.178:64646) has connected
+[18:11:07] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SkyNenncompsegon -> lobby has connected
+[18:11:10] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SkyNenncompsegon -> japon has connected
+[18:11:10] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SkyNenncompsegon -> lobby has disconnected
+[18:14:11] [Netty NIO Worker #19/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:64460): unable to connect to server orient
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: getsockopt: /127.0.0.1:30068
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:1062) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:14:12] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:64460): kicked from server japon: Bedwars can't properly transfer player through bungee network. Contact server admin.
+[18:14:12] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> japon has disconnected
+[18:14:12] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[18:14:15] [Netty NIO Worker #19/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] SkyNenncompsegon (/86.252.4.178:64646): unable to connect to server orient
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: getsockopt: /127.0.0.1:30068
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:1062) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:14:16] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] SkyNenncompsegon (/86.252.4.178:64646): kicked from server japon: Bedwars can't properly transfer player through bungee network. Contact server admin.
+[18:14:16] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SkyNenncompsegon -> japon has disconnected
+[18:14:16] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SkyNenncompsegon -> lobby has connected
+[18:16:58] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> japon has connected
+[18:16:58] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[18:19:31] [Netty NIO Worker #19/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> japon: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@7c084c21
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:19:31] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> japon has disconnected
+[18:19:31] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[18:19:45] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> japon has connected
+[18:19:45] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[18:19:53] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SkyNenncompsegon -> japon has connected
+[18:19:53] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SkyNenncompsegon -> lobby has disconnected
+[18:25:23] [Netty NIO Worker #19/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:64460): unable to connect to server orient
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: getsockopt: /127.0.0.1:30068
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:1062) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:25:24] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:64460): kicked from server japon: Bedwars can't properly transfer player through bungee network. Contact server admin.
+[18:25:24] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> japon has disconnected
+[18:25:24] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[18:25:27] [Netty NIO Worker #19/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] SkyNenncompsegon (/86.252.4.178:64646): unable to connect to server orient
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: getsockopt: /127.0.0.1:30068
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:1062) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:25:28] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] SkyNenncompsegon (/86.252.4.178:64646): kicked from server japon: Bedwars can't properly transfer player through bungee network. Contact server admin.
+[18:25:28] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SkyNenncompsegon -> japon has disconnected
+[18:25:28] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SkyNenncompsegon -> lobby has connected
+[18:25:41] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> japon has connected
+[18:25:41] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[18:25:46] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SkyNenncompsegon -> japon has connected
+[18:25:46] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SkyNenncompsegon -> lobby has disconnected
+[18:35:55] [Netty NIO Worker #19/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:64460): unable to connect to server orient
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: getsockopt: /127.0.0.1:30068
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:1062) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:35:55] [Netty NIO Worker #19/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] SkyNenncompsegon (/86.252.4.178:64646): unable to connect to server orient
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: getsockopt: /127.0.0.1:30068
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:1062) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:35:56] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:64460): kicked from server japon: Bedwars can't properly transfer player through bungee network. Contact server admin.
+[18:35:56] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> japon has disconnected
+[18:35:56] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[18:35:56] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] SkyNenncompsegon (/86.252.4.178:64646): kicked from server japon: Bedwars can't properly transfer player through bungee network. Contact server admin.
+[18:35:56] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SkyNenncompsegon -> japon has disconnected
+[18:35:56] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SkyNenncompsegon -> lobby has connected
+[18:36:10] [Netty NIO Worker #19/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] SkyNenncompsegon (/86.252.4.178:64646): unable to connect to server orient
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: getsockopt: /127.0.0.1:30068
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:1062) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:36:10] [Netty NIO Worker #19/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] SkyNenncompsegon (/86.252.4.178:64646): unable to connect to server japon
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: getsockopt: /127.0.0.1:30067
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:1062) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:41:53] [Netty NIO Worker #19/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SkyNenncompsegon -> lobby: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@2248e7e
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:41:53] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] SkyNenncompsegon (/86.252.4.178:64646) has disconnected: Your connection to lobby encountered a problem.
+[18:41:53] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] SkyNenncompsegon -> lobby has disconnected
+[18:41:53] [Netty NIO Worker #19/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@18420ae0
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:41:53] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:64460) has disconnected: Your connection to lobby encountered a problem.
+[18:41:53] [Netty NIO Worker #19/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[18:42:08] [Netty NIO Worker #15/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:49287) has connected
+[18:42:08] [Netty NIO Worker #15/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[18:49:35] [Netty NIO Worker #15/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@a88cb71
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:49:35] [Netty NIO Worker #15/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:49287) has disconnected: Your connection to lobby encountered a problem.
+[18:49:35] [Netty NIO Worker #15/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[18:49:40] [Netty NIO Worker #20/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:49588) has connected
+[18:49:40] [Netty NIO Worker #20/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:49588): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: getsockopt: /127.0.0.1:25566
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:1062) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:49:40] [Netty NIO Worker #20/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:49588) has disconnected: Impossible de vous connecter à lobby. Veuillez réessayer ultérieurement.
+[18:49:44] [Netty NIO Worker #10/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:49646) has connected
+[18:49:44] [Netty NIO Worker #10/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[18:50:23] [Netty NIO Worker #10/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@db45092
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:50:23] [Netty NIO Worker #10/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:49646) has disconnected: Your connection to lobby encountered a problem.
+[18:50:23] [Netty NIO Worker #10/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[18:50:28] [Netty NIO Worker #14/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:49689) has connected
+[18:50:28] [Netty NIO Worker #14/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[18:50:32] [Netty NIO Worker #14/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[18:50:32] [Netty NIO Worker #14/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:49689): disconnected while connecting to lobby: [LP] Permissions data for your user was not loaded during the pre-login stage - unable to continue. Please try again later. If you are a server admin, please check the console for any errors.
+[18:50:32] [Netty NIO Worker #14/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:49689) has disconnected: Impossible de se connecter à lobby : [LP] Permissions data for your user was not loaded during the pre-login stage - unable to continue. Please try again later. If you are a server admin, please check the console for any errors.
+[18:50:34] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:49752) has connected
+[18:50:34] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[18:51:07] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:49752): kicked from server lobby: Server closed
+[18:51:07] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[18:51:07] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:49752) has disconnected: You were kicked from lobby: Server closed
+[18:51:14] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:49778) has connected
+[18:51:14] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[18:51:18] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[18:51:18] [Netty NIO Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:49778): disconnected while connecting to lobby: [LP] Permissions data for your user was not loaded during the pre-login stage - unable to continue. Please try again later. If you are a server admin, please check the console for any errors.
+[18:51:18] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:49778) has disconnected: Impossible de se connecter à lobby : [LP] Permissions data for your user was not loaded during the pre-login stage - unable to continue. Please try again later. If you are a server admin, please check the console for any errors.
+[18:51:20] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:49789) has connected
+[18:51:20] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[18:51:39] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Heurazy (/86.252.4.178:49789) has disconnected
+[18:51:39] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[18:51:40] [Netty NIO Worker #21/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:49847) has connected
+[18:51:40] [Netty NIO Worker #21/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[18:52:35] [Netty NIO Worker #21/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby: exception encountered in com.velocitypowered.proxy.connection.backend.BackendPlaySessionHandler@4fb552ee
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:52:35] [Netty NIO Worker #21/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:49847) has disconnected: Your connection to lobby encountered a problem.
+[18:52:35] [Netty NIO Worker #21/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[18:52:37] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:49880) has connected
+[18:52:37] [Netty NIO Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:49880): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: getsockopt: /127.0.0.1:25566
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:1062) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-19abb909-b265)]
+	at java.lang.Thread.run(Thread.java:1575) [?:?]
+[18:52:37] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Heurazy (/86.252.4.178:49880) has disconnected: Impossible de vous connecter à lobby. Veuillez réessayer ultérieurement.
+[18:52:46] [Netty NIO Worker #14/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:49938) has connected
+[18:52:46] [Netty NIO Worker #14/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[18:53:04] [Netty NIO Worker #14/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Heurazy (/86.252.4.178:49938) has disconnected
+[18:53:04] [Netty NIO Worker #14/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[18:53:05] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:50003) has connected
+[18:53:05] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected
+[18:53:14] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Heurazy (/86.252.4.178:50003) has disconnected
+[18:53:14] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has disconnected
+[18:53:15] [Netty NIO Worker #16/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Heurazy (/86.252.4.178:50059) has connected
+[18:53:15] [Netty NIO Worker #16/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Heurazy -> lobby has connected

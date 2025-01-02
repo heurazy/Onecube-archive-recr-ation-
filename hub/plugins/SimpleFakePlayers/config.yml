@@ -1,0 +1,8 @@
+# Enable the fake max players
+enable-fake-max: true
+
+# Set the fake max players
+fake-max: 1000
+
+# Set the fake players
+fake-players: 100

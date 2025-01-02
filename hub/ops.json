@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "0e7ddcb5-4dc5-31b3-b1c8-6470c424a07f",
+    "name": "Heurazy",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f865070f-0a2f-3b93-be7b-a981e2046bcd",
+    "name": "SkyNenncompsegon",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "43c82ca9-d4a9-3497-88f4-dc7a1d68a5f7",
+    "name": "Nsavant",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

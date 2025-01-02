@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1735475464865
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1735757512627
+  login: 1735753995347
+money: '0'
+last-account-name: Heurazy
+logoutlocation:
+  world: 68907b68-00f0-4db3-9332-e5ce56ea7436
+  world-name: world
+  x: 4262.300000011921
+  y: 75.0
+  z: 4259.178423974796
+  yaw: 62.0440673828125
+  pitch: 15.35960865020752
+lastlocation:
+  world: 68907b68-00f0-4db3-9332-e5ce56ea7436
+  world-name: world
+  x: 4236.8619335301255
+  y: 84.44337794853575
+  z: 4243.393883073174
+  yaw: -15.2220458984375
+  pitch: 15.05509090423584

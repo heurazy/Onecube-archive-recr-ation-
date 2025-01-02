@@ -1,0 +1,113 @@
+panels:
+  panel-1:
+    perm: default
+    rows: 3
+    title: '&8SELECTION DE MINI-JEUX'
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    item:
+      '0':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '2':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '1':
+        material: BED
+        stack: 1
+        name: "\xa7eBedwars"
+        commands:
+        - cpanel panel-2
+      '3':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '4':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '5':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '6':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '7':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '8':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '11':
+        material: Golden Carrot
+        stack: 1
+        name: "\xa7epitchoot"
+        commands:
+        - msg= lancer le mod de jeux
+        - cpanel panel-3
+      '13':
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '15':
+        material: GOLDEN APPLE
+        stack: 1
+        name: "\xa7eUHC"
+        commands:
+        - msg= lancer le mod de jeux
+        - server= uhc
+      '9':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '19':
+        material: wool
+        stack: 1
+        name: "\xa7eSHEEP WARS"
+        commands:
+        - msg= lancer le mod de jeux
+        - server= sheepwars2
+      '20':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '17':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '18':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '21':
+        material: diamond_sword
+        stack: 1
+        name: "\xa7ePVPSWAP"
+        commands:
+        - msg= lancer le mod de jeux
+        - server= pvpswap
+      '22':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '23':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '24':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '26':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1
+      '25':
+        ID: 14
+        material: STAINED_GLASS_PANE
+        stack: 1

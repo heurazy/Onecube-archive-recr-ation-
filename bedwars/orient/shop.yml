@@ -1,0 +1,411 @@
+#
+# Copyright (C) 2023 ScreamingSandals
+#
+# This file is part of Screaming BedWars.
+#
+# Screaming BedWars is free software: you can redistribute it and/or modify it
+# under the terms of the GNU Lesser General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# Screaming BedWars is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with Screaming BedWars. If not, see <https://www.gnu.org/licenses/>.
+#
+
+data:
+#-   stack:
+#      type: GOLDEN_APPLE
+#      amount: 1
+#      meta:
+#        ==: ItemMeta
+#        meta-type: UNSPECIFIC
+#        display-name: "Example category"
+#        lore:
+#        - "This is my category!"
+#        - "Please buy things inside!"
+#    items:
+#    - price: 50
+#      price-type: "bronze"
+#      stack:
+#        type: DIAMOND_SWORD
+#        amount: 1
+#        meta:
+#          ==: ItemMeta
+#          meta-type: UNSPECIFIC
+#          enchants:
+#            sharpness: 2
+#          repair-cost: 1
+#          Damage: 99
+# Value 'applycolorbyteam' is used for automatic-coloring-in-shop.
+# See WarpPowder for more info.
+#     properties: "applycolorbyteam"
+
+- stack: "DIAMOND_CHESTPLATE;1;Armurier;"
+  items:
+   - price: 10 of bronze
+     stack:
+      type: CHAINMAIL_CHESTPLATE
+   - price: 12 of iron
+     stack:
+      type: IRON_CHESTPLATE
+   - price: 6 of diamond
+     stack:
+      type: DIAMOND_CHESTPLATE
+   - price: 0 of iron
+     stack:
+   - price: 5 of iron
+     stack:
+      type: GOLDEN_APPLE
+   - price: 45 of bronze
+     properties: "ThrowableFireball"
+     stack:
+       type: FIRE_CHARGE
+       display-name: "Fireball"
+   - price: 4 of diamond
+     stack:
+      type: ENDER_PEARL
+      display-name: Perle du Néant
+   - price: 0 of iron
+     stack:
+   - price: 0 of iron
+     stack:
+   - price: 10 of bronze
+     stack:
+      type: STONE_SWORD
+   - price: 8 of iron
+     stack:
+      type: IRON_SWORD
+   - price: 2 of diamond
+     stack:
+      type: DIAMOND_SWORD
+   - price: 0 of iron
+     stack:
+   - price: 4 of iron
+     stack:
+      type: TNT
+      display-name: TNT
+   - price: 1 of diamond
+     properties: "Tracker"
+     stack:
+      type: COMPASS
+      display-name: "Boussole"
+   - price: 20 of iron
+     properties: "TNTSheep"
+     stack:
+      type: SHEEP_SPAWN_EGG
+      display-name: "TNT Sheep"
+
+- stack: "STAINED_CLAY;1;Constructeur;"
+  items:
+   - price: 2 of bronze
+     stack:
+      amount: 8
+      type: STAINED_CLAY
+   - price: 2 of iron
+     stack:
+      amount: 8
+      type: WOOD_PLANK
+   - price: 8 of bronze
+     stack:
+      type: END_STONE
+   - price: 0 of iron
+     stack:
+   - price: 10 of bronze
+     stack:
+      type: STONE_PICKAXE
+   - price: 2 of iron
+     stack:
+      type: IRON_PICKAXE
+   - price: 2 of diamond
+     stack:
+      type: DIAMOND_PICKAXE
+   - price: 0 of iron
+     stack:
+   - price: 0 of iron
+     stack:
+   - price: 4 of bronze
+     stack:
+      amount: 16
+      type: STAINED_CLAY
+   - price: 3 of bronze
+     stack:
+      type: LADDER
+   - price: 1 of diamond
+     properties:
+      - name: "rescueplatform"
+        delay: 5
+     stack:
+      type: BLAZE_ROD
+      display-name: "platforme"
+      lore:
+       - "créer une platforme en dessous de toi"
+   - price: 0 of iron
+     stack:
+   - price: 10 of bronze
+     stack:
+      type: WOODEN_AXE
+   - price: 20 of bronze
+     stack:
+      type: STONE_AXE
+   - price: 5 of iron
+     stack:
+      type: IRON_AXE
+
+- stack: "LEATHER_CHESTPLATE;1;armure_gratuit;"
+  items:
+   - price: 0 of bronze
+     stack:
+      type: LEATHER_BOOTS
+   - price: 0 of bronze
+     stack:
+      type: LEATHER_LEGGINGS
+   - price: 0 of bronze
+     stack:
+      type: LEATHER_CHESTPLATE
+   - price: 0 of bronze
+     stack:
+      type: WOODEN_SWORD
+       
+- stack: "BOW;1;Bows;Prove yourself as a marksman with these wonderful bows"
+  column: right
+  items:
+   - price: 3 of gold
+     stack:
+      type: BOW
+      enchants:
+       infinity: 1
+   - price: 7 of gold
+     stack:
+      type: BOW
+      enchants:
+       infinity: 1
+       power: 1
+   - price: 13 of gold
+     stack:
+      type: BOW
+      enchants:
+       infinity: 1
+       power: 2
+   - price: 14 of gold
+     stack:
+      type: BOW
+      enchants:
+       infinity: 1
+       flame: 1
+   - price: 15 of gold
+     stack:
+      type: BOW
+      enchants:
+       infinity: 1
+       flame: 1
+       punch: 1
+   - ARROW for 1 of gold
+
+- stack: "COOKED_PORKCHOP;1;Eat;Are you hungry? Get something to eat."
+  row: 3
+  column: 2
+  items:
+   - COOKED_PORKCHOP;2 for 4 of bronze
+   - GOLDEN_APPLE for 2 of iron
+   - BREAD;10 for 5 of gold
+
+- stack:
+    type: POTION
+    display-name: "Drinks"
+    lore:
+      - "Not enough? Use these potions and you'll feel better!"
+    potion-type: strength
+  row: 3
+  column: 6
+  items:
+    - stack:
+        type: POTION
+        potion-type: healing
+      price: 3 of iron
+    - stack:
+        type: POTION
+        potion-type: strong_healing
+      price: 5 of iron
+    - stack:
+        type: POTION
+        potion-type: swiftness
+      price: 7 of iron
+    - stack:
+        type: POTION
+        potion-type: strength
+      price: 1 of gold
+    - stack:
+        type: POTION
+        potion-type: regeneration
+      price: 3 of gold
+
+- stack: "SANDSTONE;1;Blocks;Get to the others! Possible with blocks."
+  linebreak: before
+  items:
+   - CUT_SANDSTONE;2 for 1 of bronze
+   - END_STONE;3 for 7 of bronze
+   - IRON_BLOCK for 3 of iron
+   - GLOWSTONE;4 for 15 of bronze
+   - price: 4 of bronze
+     properties: "applycolorbyteam"
+     stack: GLASS
+
+- stack: "TNT;1;Useful Stuff;Looking for useful stuff? Here are some!"
+  column: center
+  items:
+   - CHEST for 1 of iron
+   - ENDER_CHEST for 1 of gold
+   - price: 3 of iron
+     stack: "TNT;1;Autoigniteable TNT"
+     properties:
+      - name: "AutoIgniteableTnt"
+        explosion-time: 5
+        damage-placer: false
+   - price: 7 of iron
+     properties:
+      - name: "WarpPowder"
+        delay: 6
+     stack:
+      type: GUNPOWDER
+      display-name: "Warp Powder"
+      lore:
+       - "When using this powder you'll get"
+       - "teleported to you spawn point within 6 seconds"
+       - "Warning: Any movement will stop the process"
+   - price: 3 of iron
+     properties:
+      - name: "Trap"
+        data:
+         - sound: ENTITY_SHEEP_AMBIENT
+         - effect:
+            ==: org.bukkit.potion.PotionEffect
+            effect: 15
+            amplifier: 2
+            duration: 100
+            ambient: true
+            has-particles: true
+            has-icon: true
+         - effect:
+            ==: org.bukkit.potion.PotionEffect
+            effect: 18
+            amplifier: 2
+            duration: 100
+            ambient: true
+            has-particles: true
+            has-icon: true
+         - effect:
+            ==: org.bukkit.potion.PotionEffect
+            effect: 2
+            amplifier: 2
+            duration: 100
+            ambient: true
+            has-particles: true
+            has-icon: true
+     stack:
+      type: STRING
+      display-name: "Trap"
+      lore:
+       - "Get informed if an enemy steps on your trap"
+       - "and your enemy won't be able to move properly."
+   - price: 6 of iron
+     properties:
+      - name: "MagnetShoes"
+        probability: 75
+     stack:
+      type: IRON_BOOTS
+      display-name: "Magnet-Shoes"
+      lore:
+       - "Wear those shoes and have a 75%"
+       - "chance of getting no knockback!"
+   - price: 5 of iron
+     properties: "Tracker"
+     stack:
+      type: COMPASS
+      display-name: "Tracker"
+      lore:
+       - "Wanna know where your closest target is?"
+       - "Let's try this out!"
+   - price: 15 of iron
+     properties:
+      - name: "rescueplatform"
+        delay: 5
+     stack:
+      type: BLAZE_ROD
+      display-name: "Rescue Platform"
+      lore:
+       - "Protect yourself from falling into"
+       - "void with a Rescue Platform."
+       - "This is your last hope!"
+   - price: 5 of gold
+     properties:
+      - name: "arrowblocker"
+        delay: 5
+     stack:
+      type: ENDER_EYE
+      display-name: "Arrow Blocker"
+      lore:
+       - "Block arrows that are coming"
+       - "for you with black magic."
+       - "I mean, with this item."
+   - price: 64 of bronze
+     properties:
+      - name: "protectionwall"
+     stack:
+      type: BRICKS
+      display-name: "Protection Wall"
+      lore:
+       - "Instantly builds a wall that"
+       - "can save your life!"
+   - price: 24 of iron
+     properties:
+      - name: "Golem"
+        speed: 0.25
+        follow: 16.0
+     stack:
+      type: GHAST_SPAWN_EGG
+      display-name: "Golem"
+      lore:
+       - "An iron golem that will protect"
+       - "your team from the enemies."
+   - price: 10 of gold
+     properties: "TNTSheep"
+     stack:
+      type: SHEEP_SPAWN_EGG
+      display-name: "TNT Sheep"
+      lore:
+       - "Use the TNT-Sheep! It will"
+       - "walk towards your closest enemy"
+       - "and explode within 8 seconds!"
+   - price: 40 of iron
+     properties: "ThrowableFireball"
+     stack:
+       type: FIRE_CHARGE
+       display-name: "Fireball"
+       lore:
+         - "Is it a bird? Is it a plane?"
+         - "By the time you know"
+         - "you are dead!"
+
+- stack: "DIAMOND_PICKAXE;1;Pickaxes;Destroy others blocks? Use these pickaxes."
+  column: right
+  items:
+   - price: 4 of bronze
+     stack:
+      type: IRON_PICKAXE
+      enchants:
+       fortune: 1
+   - price: 2 of iron
+     stack:
+      type: IRON_PICKAXE
+      enchants:
+       fortune: 2
+   - price: 1 of gold
+     stack:
+      type: IRON_PICKAXE
+      enchants:
+       fortune: 3

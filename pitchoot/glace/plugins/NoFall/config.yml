@@ -1,0 +1,5 @@
+# make sure you use the exact capital letters as spelled in your worlds #
+worlds:
+  - world
+  - world_nether
+  - world_the_end

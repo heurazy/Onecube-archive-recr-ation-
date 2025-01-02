@@ -1,0 +1,112 @@
+data:
+  - stack: "IRON_CHESTPLATE;1;Protection;Click here to get more resistance to damage!"
+    column: 2
+    price: 4 of gold
+    properties: protection
+
+  - stack: "IRON_SWORD;1;Sharpness;Kill players quicker!."
+    column: 1
+    price: 4 of gold
+    properties: sharpness
+
+  - stack: "GOLDEN_PICKAXE;1;Efficiency;Break Blocks quicker!."
+    price: 4 of gold
+    column: 3
+    properties: efficiency
+
+  - price: 4 of gold
+    properties: 
+      name: forge
+      add-levels: 0.2
+      max-level: 2
+      type:
+        - iron
+        - bronze
+    stack:
+      type: FURNACE
+      amount: 1
+      display-name: "Forge Upgrade"
+
+  - stack: "BEACON;1;§bHeal Pool;§7Triggers a pool around the base that heals you!"
+    column: 5
+    row: 1
+    properties: healpool
+    price: 8 of gold
+
+  - stack: "LEATHER;1;Traps;Trap your enemy"
+    column: 7
+    items:
+      - price: 2 of gold
+        skip: 1
+        properties: blindtrap
+        stack:
+          type: STRING
+          display-name: "§bBlindess trap"
+          lore:
+            - "§7Get informed when an enemy enters a 7 block radius of your base"
+            - "§7Blind the foe and gain an upper advantage!"
+
+      - price: 2 of gold
+        skip: 1
+        properties: minertrap
+        stack:
+          type: STRING
+          display-name: "§bMining Fatigue trap"
+          lore:
+            - "§7Get informed when an enemy enters a 7 block radius of your base"
+            - "§7Slow Down their mining and gain an advantage!"
+
+      - price: 2 of gold
+        skip: 1
+        properties:
+          name: trap
+          identifier: custom_trap_1
+          target: team
+          effects:
+            - type: jump_boost
+              duration: 600
+              level: 6
+            - type: regeneration
+              duration: 600
+              level: 2
+        stack:
+          type: STRING
+          display-name: "§bCustom trap"
+          lore:
+            - "§7Add jump and speed to your team when an enemy enters a 7 block radius of your base"
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 0
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 1
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 2
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 3
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 4
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 5
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 6
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 7
+
+  - stack: "GRAY_STAINED_GLASS_PANE;1;*****"
+    row: 2
+    column: 8

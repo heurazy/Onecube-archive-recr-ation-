@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1735752346920
+  login: 1735752956848
+money: '0'
+last-account-name: SkyNenncompsegon
+logoutlocation:
+  world: 68907b68-00f0-4db3-9332-e5ce56ea7436
+  world-name: world
+  x: 4242.694301120877
+  y: 80.0
+  z: 4242.3858074605405
+  yaw: 269.9051513671875
+  pitch: -1.392359972000122

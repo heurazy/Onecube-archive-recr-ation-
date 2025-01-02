@@ -3,6 +3,11 @@ l faut savoir que presque tout est composé de plugins trouvés sur Internet, à
 
 Le projet n’est pas terminé. Mon objectif est de faire une version « jouable » de chaque mini-jeu de Onecube, même si ceux-ci ne seront pas exactement identiques à ceux de Onecube.
 
+Téléchargement :
+les fichiers des serveurs sont dans la branche master https://github.com/heurazy/Onecube-archive-recr-ation-/tree/master 
+vous avez juste a télécharger et a lancer les serveurs et vous connecter en localhost(25565)
+
+
 Liste des bugs connus :
 
 En Bedwars, lorsque vous achetez une armure meilleure, vos bottes et jambières disparaissent. Pour éviter cela, veuillez mettre vos jambières et bottes dans votre inventaire, acheter l'armure, puis remettre vos jambières et bottes.

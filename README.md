@@ -24,7 +24,7 @@ HUB :
 -Créer le Tab.
 
 Pitchoot :
--Refaire complètement le mini-jeu pour en faire un véritable FFA (Free For All) et non pas un simple mini-jeu.
+-Refaire complètement le mini-jeu pour en faire un véritable mini-jeu et pas un FFA (Free For All).
 -Ajouter des informations, par exemple la durabilité du grappin en fonction du nombre d’utilisations, ou encore des pourcentages pour le recul que l’on prend.
 
 Global :

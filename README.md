@@ -7,6 +7,8 @@ Téléchargement :
 les fichiers des serveurs sont dans la branche master https://github.com/heurazy/Onecube-archive-recr-ation-/tree/master 
 vous avez juste a télécharger et a lancer les serveurs et vous connecter en localhost(25565)
 
+contacte :
+discord : heurazy
 
 Liste des bugs connus :
 
